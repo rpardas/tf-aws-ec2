@@ -64,7 +64,15 @@ Apply the changes.
 
 `terraform apply`
 
+Variables
+
+`terraform apply -var "instance_name=DifferentName"`
+
 Watch the output for changes made and see the updated instance.
+
+#### Outputs
+
+`terraform output`
 
 #### Destroy
 
